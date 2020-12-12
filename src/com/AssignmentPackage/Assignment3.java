@@ -1,4 +1,4 @@
-package AssignmentPackage;
+package com.AssignmentPackage;
 
 public class Assignment3 {
 	/**
