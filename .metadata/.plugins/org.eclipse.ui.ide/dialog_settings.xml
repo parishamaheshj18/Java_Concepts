@@ -19,6 +19,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/Users/parisha/Desktop/Java job/Java_Development/JavaTraining/src/com/SessionPackage"/>
+			<item value="/Users/parisha/Desktop/Java job/Java_Development"/>
 			<item value="/Users/parisha/Desktop/Java job/Java_Development/JavaTraining"/>
 		</list>
 	</section>
