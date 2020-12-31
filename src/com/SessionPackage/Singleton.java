@@ -28,8 +28,11 @@ public class Singleton{
 	public static Singleton getTest() {
 		if(t == null){
 			t = new Singleton();}
+		
+		System.out.println("Object");
 		return t;	
 	}
+	
 	public static void main(String[] args) {
 		Singleton t_1 = Singleton.getTest();
 		Singleton t_2 = Singleton.getTest();
