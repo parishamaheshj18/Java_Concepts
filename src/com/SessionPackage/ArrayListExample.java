@@ -35,8 +35,7 @@ public class ArrayListExample {
 		 
 		//Collections.sort(arr,new EmployeeComparator());
 		Collections.sort(arr,new Comparator<Employee>() {
-
-			@Override
+			
 			public int compare(Employee obj1, Employee obj2) {
 				// TODO Auto-generated method stub
 				return obj1.getName().compareTo(obj2.getName());
