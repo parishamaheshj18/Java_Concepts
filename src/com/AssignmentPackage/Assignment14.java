@@ -82,7 +82,7 @@ public class Assignment14 {
 	public static void deleteUser(int userId) {
 		Connection con = null;
 		PreparedStatement ps = null;
-
+		
 		try {
 			con = DBConnection.getConnection();
 			ps = con.prepareStatement("DELETE FROM userDetails WHERE idNo = ?;");
@@ -146,12 +146,12 @@ public class Assignment14 {
 		}*/
 
 		authenticateUser("Parisha", "1234");
-		authenticateUser("amal", "1234");
+		/*authenticateUser("amal", "1234");
 		authenticateUser("nayan", "1234");
 		authenticateUser("priya", "1234");
 		deleteUser(4);
 		updateUser(2, "new_Priyank", "new_pwd");
-		searchUser("201844");
+		searchUser("201844");*/
 		
 	}
 
